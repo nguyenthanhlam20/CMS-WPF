@@ -1,0 +1,164 @@
+﻿<Page x:Class="FinancialWPFApp.UI.User.Views.Pages.DashboardView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinancialWPFApp.UI.User.Views.Pages"
+      xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="DashboardView">
+
+    <StackPanel Background="{DynamicResource SecondaryBackgroundColor}">
+        <StackPanel Orientation="Horizontal">
+            <Border Padding="20 15 20 15" 
+                CornerRadius="10" 
+                Background="{DynamicResource PrimaryBlueColor}"
+                Height="100"
+                Width="270"
+                HorizontalAlignment="Left"
+                Margin="0 0 20 0">
+                <DockPanel >
+                    <Border DockPanel.Dock="Left" CornerRadius="50" VerticalAlignment="Center" 
+                        Width="40" 
+                        Height="40" HorizontalAlignment="Left" Background="#ebe8e8">
+                        <Icon:PackIconMaterial  Kind="Bitcoin" 
+                                            Width="20" 
+                                            Height="20" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+                    </Border>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label Content="Total Balance" 
+                           FontWeight="Bold"
+                            Opacity="0.8" HorizontalContentAlignment="Right"
+                           FontSize="{DynamicResource textFontSize}"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+
+                        <Label Content="4" 
+                           FontWeight="Bold"
+                           FontSize="24"
+                               x:Name="lbTotalBalance"
+                               HorizontalContentAlignment="Right"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+            <Border Padding="20 15 20 15" 
+                CornerRadius="10" 
+                Background="{DynamicResource SecondaryGreenColor}"
+                Height="100"
+                Width="270"
+                HorizontalAlignment="Left"
+                Margin="0 0 20 0">
+                <DockPanel >
+                    <Border DockPanel.Dock="Left" CornerRadius="50" VerticalAlignment="Center" 
+                        Width="40" 
+                        Height="40" HorizontalAlignment="Left" Background="#ebe8e8">
+                        <Icon:PackIconMaterial  Kind="CashPlus" 
+                                            Width="20" 
+                                            Height="20" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+                    </Border>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label Content="Income" 
+                           FontWeight="Bold"
+                            Opacity="0.8" HorizontalContentAlignment="Right"
+                           FontSize="{DynamicResource textFontSize}"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+
+                        <Label Content="4" 
+                           FontWeight="Bold"
+                           FontSize="24"
+                               x:Name="lbTotalIncome"
+                               HorizontalContentAlignment="Right"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+            <Border Padding="20 15 20 15" 
+                CornerRadius="10" 
+                Background="{DynamicResource PrimaryRedColor}"
+                Height="100"
+                Width="270"
+                HorizontalAlignment="Left"
+                Margin="0 0 20 0">
+                <DockPanel >
+                    <Border DockPanel.Dock="Left" CornerRadius="50" VerticalAlignment="Center" 
+                        Width="40" 
+                        Height="40" HorizontalAlignment="Left" Background="#ebe8e8">
+                        <Icon:PackIconMaterial  Kind="CashMinus" 
+                                            Width="20" 
+                                            Height="20" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+                    </Border>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label Content="Expense" 
+                           FontWeight="Bold"
+                            Opacity="0.8" HorizontalContentAlignment="Right"
+                           FontSize="{DynamicResource textFontSize}"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+
+                        <Label Content="4" 
+                           FontWeight="Bold"
+                           FontSize="24"
+                               x:Name="lbTotalExpense"
+                               HorizontalContentAlignment="Right"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+            <Border Padding="20 15 20 15" 
+                CornerRadius="10" 
+                Background="{DynamicResource PrimaryTealColor}"
+                Height="100"
+                Width="270"
+                HorizontalAlignment="Left"
+                Margin="0 0 20 0">
+                <DockPanel >
+                    <Border DockPanel.Dock="Left" CornerRadius="50" VerticalAlignment="Center" 
+                        Width="40" 
+                        Height="40" HorizontalAlignment="Left" Background="#ebe8e8">
+                        <Icon:PackIconMaterial  Kind="Bank" 
+                                            Width="20" 
+                                            Height="20" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+                    </Border>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Vertical" HorizontalAlignment="Right">
+                        <Label Content="Wallet" 
+                           FontWeight="Bold"
+                            Opacity="0.8" HorizontalContentAlignment="Right"
+                           FontSize="{DynamicResource textFontSize}"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+
+                        <Label Content="4" 
+                           FontWeight="Bold"
+                           FontSize="24"
+                               x:Name="lbTotalWallet"
+                               HorizontalContentAlignment="Right"
+                           Foreground="{DynamicResource TertiaryWhiteColor}" />
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 20 13 0">
+
+            <Label FontWeight="Bold" Foreground="{DynamicResource PrimaryTextColor}" FontSize="{DynamicResource textFontSize}" Content="Year" />
+            <ComboBox x:Name="cbYears" Width="70" VerticalContentAlignment="Center"  FontSize="{DynamicResource textFontSize}" SelectionChanged="cbYears_SelectionChanged" />
+        </StackPanel>
+        <Border Padding="0 15 0 20" Margin="0 0 0 0">
+            <lvc:CartesianChart LegendLocation="Top" Foreground="{DynamicResource SecondaryTextColor}" 
+                              
+                                x:Name="chartHorizontal"
+                                HorizontalAlignment="Left" Width="1136" Height="400">
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Title="Months" Foreground="{DynamicResource SecondaryTextColor}" ShowLabels="True" Labels="{Binding Labels}"></lvc:Axis>
+                </lvc:CartesianChart.AxisX>
+                   
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Title="Amount"  Width="300" Foreground="{DynamicResource SecondaryTextColor}" LabelFormatter="{Binding Formatter}"></lvc:Axis>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
+        </Border>
+    </StackPanel>
+</Page>

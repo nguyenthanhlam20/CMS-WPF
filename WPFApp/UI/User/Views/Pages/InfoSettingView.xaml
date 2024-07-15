@@ -1,0 +1,96 @@
+﻿<Page x:Class="FinancialWPFApp.UI.User.Views.Pages.InfoSettingView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinancialWPFApp.UI.User.Views.Pages"
+      xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="InfoSettingView">
+
+    <Border Padding="120 5 20 0" Background="{DynamicResource SecondaryBackgroundColor}">
+        <StackPanel>
+            <Label Padding="0 5 5 0" Content="Account Information" Foreground="{DynamicResource SecondaryTextColor}" FontSize="20" FontWeight="Bold" />
+            <Label Padding="0"  Foreground="{DynamicResource SecondaryTextColor}"
+                   Content="Update your account information" Opacity="0.7" />
+            <Label Content="Personal Information" Foreground="{DynamicResource SecondaryTextColor}"
+                   Padding="0" Margin="0 20 0 20" FontWeight="Bold" FontSize="{DynamicResource textFontSize}"/>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 20" >
+                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Fullname" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtFullname" Style="{StaticResource StyledTextBox}"
+                             Tag="Enter your fullname"
+                             
+                             Width="400" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Gender" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton x:Name="rdMale"  Content="Male"   Tag="GenderMale"
+                                     Style="{StaticResource FilterRadioButtonStyle}" 
+                                     GroupName="Gender"
+                                     Margin="0 0 20 0"
+                                     
+                                   ></RadioButton>
+                        <RadioButton x:Name="rdFemale"  Content="Female"  Tag="GenderFemale"
+                          Style="{DynamicResource FilterRadioButtonStyle}" GroupName="Gender"
+                                   ></RadioButton>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  Margin="0 0 0 20" >
+                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Date of Birth" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <DatePicker  Width="400" Height="45" Background="{DynamicResource TertiaryWhiteColor}" HorizontalContentAlignment="Stretch"
+                                 Padding="10"
+                                 FontSize="{DynamicResource textFontSize}"
+                                 VerticalContentAlignment="Center"
+                                 x:Name="dpDOB" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}"
+                           Content="Phone" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtPhone" Style="{StaticResource StyledTextBox}"
+                           
+                             Tag="Enter your phone number"
+                             Width="400" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  Margin="0 0 0 20" >
+                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Email" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtEmail" Style="{StaticResource StyledTextBox}"
+                             Tag="Enter your email"
+                             IsEnabled="False"
+                             Width="840" />
+                </StackPanel>
+               
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  Margin="0 0 0 20" >
+                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Password" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtPassword" Style="{StaticResource StyledTextBox}"
+                             Tag="Enter your password"
+                             
+                             Width="400" />
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Foreground="{DynamicResource SecondaryTextColor}"
+                           Content="Confirm Password" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtConfirmPassword" Style="{StaticResource StyledTextBox}"
+                           
+                             Tag="Confirm your password"
+                             Width="400" />
+                </StackPanel>
+            </StackPanel>
+            <Button x:Name="btnUpdate" Click="btnUpdate_Click" Style="{DynamicResource AddButton}" HorizontalAlignment="Left" Margin="0 20 0 0"  Width="150" >
+                <StackPanel Orientation="Horizontal"
+                            >
+                    <Icon:PackIconMaterial Kind="Update" Height="{DynamicResource textFontSize}" Width="{DynamicResource textFontSize}" VerticalAlignment="Center" Margin="0 0 3 0" />
+                    <Label Content="Update" FontSize="{DynamicResource textFontSize}" Foreground="{DynamicResource TertiaryWhiteColor}" FontWeight="Bold"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Border>
+</Page>

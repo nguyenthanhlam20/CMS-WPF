@@ -1,0 +1,81 @@
+﻿<Page x:Class="FinancialWPFApp.UI.Public.Views.Pages.LoginView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinancialWPFApp.UI.Public.Views.Pages"
+      xmlns:vm="clr-namespace:FinancialWPFApp.UI.Public.ViewModels.Pages"
+      xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+      mc:Ignorable="d" 
+      d:DesignHeight="750" d:DesignWidth="450"
+      Title="LoginView">
+    <Page.DataContext>
+        <vm:LoginViewModel />
+    </Page.DataContext>
+
+    <Border Background="{DynamicResource TertiaryBackgroundColor}">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Icon:PackIconMaterial  Foreground="{DynamicResource SecondaryTextColor}" Kind="Book" Margin="0 0 10 0" Width="{DynamicResource appFontSize}" Height="{DynamicResource appFontSize}" VerticalAlignment="Center" />
+                <Label  Foreground="{DynamicResource SecondaryTextColor}" Content="{DynamicResource appName}" 
+                       Style="{DynamicResource StyledLabel}"
+                       FontWeight="ExtraBold"
+                       FontSize="{DynamicResource appFontSize}" />
+
+
+            </StackPanel>
+            <StackPanel Margin="0 60 0 0" Orientation="Vertical">
+                <Label Foreground="{DynamicResource SecondaryTextColor}" Style="{DynamicResource StyledLabel}" Content="{DynamicResource signInTitle}" FontSize="{DynamicResource titleFontSize}" FontWeight="Bold"   />
+                <Label  Foreground="{DynamicResource SecondaryTextColor}" Style="{DynamicResource StyledLabel}" Content="{DynamicResource signInMessage}" FontSize="{DynamicResource textFontSize}" Opacity="0.8" />
+                <StackPanel Margin="0 30 0 0 " Orientation="Vertical">
+                    <Label  Foreground="{DynamicResource SecondaryTextColor}" Style="{DynamicResource StyledLabel}"
+                           Content="Email" 
+                           FontWeight="SemiBold" 
+                           Margin="0 0 0 5"/>
+                    <TextBox Style="{DynamicResource StyledTextBox}" 
+                             Tag="{DynamicResource enterEmail}"
+                             Text="{Binding Email}"
+                             HorizontalAlignment="Left"
+                            Width="430"
+                             />
+                </StackPanel>
+
+                <StackPanel Margin="0 30 0 0 " Orientation="Vertical">
+                    <Label  Foreground="{DynamicResource SecondaryTextColor}" Style="{DynamicResource StyledLabel}"
+            Content="Email" 
+            FontWeight="SemiBold" 
+            Margin="0 0 0 5"/>
+                    <TextBox Style="{DynamicResource StyledTextBox}" 
+              Tag="{DynamicResource enterPassword}"
+              Text="{Binding Password}"
+              HorizontalAlignment="Left"
+             Width="430"
+              />
+                </StackPanel>
+
+                <Button
+                    Margin="0 20 0 0"
+                    Style="{DynamicResource AddButton}" 
+                         Width="430"
+                        HorizontalAlignment="Left"
+                        Background="{DynamicResource SecondaryBlueColor}" 
+                        FontWeight="Bold" 
+                        x:Name="Login"
+                         Command="{Binding Path=SignInCommand}"
+                        FontSize="{DynamicResource textFontSize}">
+                    <StackPanel Orientation="Horizontal">
+
+                        <TextBlock Text="Sign In"               
+                                       Foreground="{DynamicResource TertiaryWhiteColor}"
+ />
+                    </StackPanel>
+                </Button>
+
+
+               
+            </StackPanel>
+
+         
+        </StackPanel>
+    </Border>
+</Page>

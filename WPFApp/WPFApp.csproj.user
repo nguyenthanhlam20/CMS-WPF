@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\MenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\ViewModels\Pages\DashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\ViewModels\Pages\UserListPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\AdminMainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Public\Views\MainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Public\Views\Pages\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Pages\DashboardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Pages\InfoSettingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Pages\MyWallet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Pages\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\UserMainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Pages\TransactionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Windows\TransactionDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\User\Views\Windows\WalletDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Assets\Values\Sizes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Icons\Icons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Values\Strings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\MenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ControlStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\DataGridStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\LabelStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\RadioButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\TextBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\ViewModels\Pages\DashboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\ViewModels\Pages\UserListPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\AdminMainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Public\Views\MainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Public\Views\Pages\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Pages\DashboardView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Pages\InfoSettingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Pages\MyWallet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Pages\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\UserMainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Pages\TransactionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Windows\TransactionDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\User\Views\Windows\WalletDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
