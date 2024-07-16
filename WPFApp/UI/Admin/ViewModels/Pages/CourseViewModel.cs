@@ -1,13 +1,10 @@
 ﻿using DataAccess.Models;
 using Services;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using WPFApp.Models;
-using WPFApp.UI.Admin.ViewModels.Windows;
 using WPFApp.UI.Admin.Views.Windows;
 
 namespace WPFApp.UI.Admin.ViewModels.Pages
@@ -113,14 +110,6 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
 
             TotalPage = TotalItem % PageSize != 0 ? (TotalItem / PageSize) + 1 : TotalItem / PageSize;
 
-        }
-
-        public List<Wallet> GetAll()
-        {
-            using (var context = new FinancialManagementContext())
-            {
-                return context.Wallets.Where(w => w.Email == "" && w.WalletName.Contains(FilterSearch)).ToList();
-            }
         }
 
         public CourseViewModel()

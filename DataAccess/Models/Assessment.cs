@@ -15,7 +15,13 @@ namespace DataAccess.Models
         public string? Name { get; set; }
         public double? Percent { get; set; }
         public int? CourseId { get; set; }
-
+        public string DisplayName
+        {
+            get
+            {
+                return $"{Course?.Code} - {Name}";
+            }
+        }
         public virtual Course? Course { get; set; }
         public virtual ICollection<Mark> Marks { get; set; }
     }

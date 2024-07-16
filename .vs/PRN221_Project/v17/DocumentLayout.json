@@ -3,44 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\semesters\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\semesters\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\semesters\\isemesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\semesters\\isemesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1BE289-AD7D-4E49-BB4E-E8D3E8B9757F}|DataAccess\\DataAccess.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE1BE289-AD7D-4E49-BB4E-E8D3E8B9757F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\userlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\userlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\pages\\enrollmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\pages\\enrollmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\userlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\userlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\semesters\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\semesters\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\departments\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\departments\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\coursedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\coursedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\assessmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\assessmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\semesterdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\semesterdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\enrollmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\enrollmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\markdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\markdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\windows\\departmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\windows\\departmentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\semesterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\semesterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\markpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\markpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\views\\pages\\semesterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\views\\pages\\semesterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\admin\\viewmodels\\pages\\semesterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\admin\\viewmodels\\pages\\semesterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\courses\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\courses\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\courses\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\courses\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\enrollments\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\enrollments\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\repositories\\departments\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF53146-7563-4277-90E1-E56A86CFF98C}|Repositories\\Repositories.csproj|solutionrelative:repositories\\departments\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\user\\views\\pages\\infosettingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\user\\views\\pages\\infosettingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\services\\departments\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|solutionrelative:services\\departments\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\user\\views\\pages\\infosettingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\user\\views\\pages\\infosettingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\services\\departments\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|solutionrelative:services\\departments\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\public\\views\\pages\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\public\\views\\pages\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\services\\students\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|solutionrelative:services\\students\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\user\\views\\windows\\coursedetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\user\\views\\windows\\coursedetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\services\\students\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B98B4A6-9AF1-42C4-87CD-B42ABC2E1320}|Services\\Services.csproj|solutionrelative:services\\students\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|c:\\users\\admin\\downloads\\supports\\1. net\\prm221\\financial_management_wpf\\wpfapp\\ui\\user\\views\\windows\\coursedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{955B26D0-9DCD-44EE-B893-DF74D0463EAA}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\ui\\user\\views\\windows\\coursedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 70,
+          "SelectedChildIndex": 69,
           "Children": [
             {
               "$type": "Bookmark",
@@ -330,132 +410,384 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ISemesterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\ISemesterRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Semesters\\ISemesterRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\ISemesterRepository.cs",
-              "RelativeToolTip": "Repositories\\Semesters\\ISemesterRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:49:14.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SemesterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\SemesterRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Semesters\\SemesterRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\SemesterRepository.cs",
-              "RelativeToolTip": "Repositories\\Semesters\\SemesterRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:49:12.458Z",
+              "Title": "WPFApp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\WPFApp.csproj",
+              "RelativeDocumentMoniker": "WPFApp\\WPFApp.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\WPFApp.csproj",
+              "RelativeToolTip": "WPFApp\\WPFApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T18:36:34.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Courses\\ICourseRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\ICourseRepository.cs",
-              "RelativeToolTip": "Repositories\\Courses\\ICourseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:47:21.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Courses\\CourseRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\CourseRepository.cs",
-              "RelativeToolTip": "Repositories\\Courses\\CourseRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:47:16.543Z",
+              "DocumentIndex": 1,
+              "Title": "DataAccess",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T18:36:06.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Departments\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\DepartmentRepository.cs",
-              "RelativeToolTip": "Repositories\\Departments\\DepartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:46:43.468Z",
+              "Title": "Repositories",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T18:36:02.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Departments\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\IDepartmentRepository.cs",
-              "RelativeToolTip": "Repositories\\Departments\\IDepartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:46:33.344Z",
+              "DocumentIndex": 3,
+              "Title": "Services",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T18:35:58.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Students\\StudentService.cs",
-              "RelativeDocumentMoniker": "Services\\Students\\StudentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Students\\StudentService.cs",
-              "RelativeToolTip": "Services\\Students\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:45:26.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Students\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Services\\Students\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Students\\IStudentService.cs",
-              "RelativeToolTip": "Services\\Students\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:45:25.297Z",
+              "DocumentIndex": 4,
+              "Title": "WPFApp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\WPFApp.csproj",
+              "RelativeDocumentMoniker": "WPFApp\\WPFApp.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\WPFApp.csproj",
+              "RelativeToolTip": "WPFApp\\WPFApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T18:35:47.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Departments\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "Services\\Departments\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Departments\\DepartmentService.cs",
-              "RelativeToolTip": "Services\\Departments\\DepartmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Title": "EnrollmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Pages\\EnrollmentViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Pages\\EnrollmentViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Pages\\EnrollmentViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Pages\\EnrollmentViewModel.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAIwIAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:45:14.478Z",
+              "WhenOpened": "2024-07-16T18:32:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwC0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:31:04.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IDepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Departments\\IDepartmentService.cs",
-              "RelativeDocumentMoniker": "Services\\Departments\\IDepartmentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Services\\Departments\\IDepartmentService.cs",
-              "RelativeToolTip": "Services\\Departments\\IDepartmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Title": "UserListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\UserListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:30:28.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowEUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:44:56.483Z",
+              "WhenOpened": "2024-07-16T18:26:43.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:26:42.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Departments\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Departments\\DepartmentRepository.cs",
+              "RelativeToolTip": "Repositories\\Departments\\DepartmentRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:24:45.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnrollmentDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\EnrollmentDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\EnrollmentDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\EnrollmentDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\EnrollmentDetailsViewModel.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwFwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:23:09.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SemesterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\SemesterRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Semesters\\SemesterRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Semesters\\SemesterRepository.cs",
+              "RelativeToolTip": "Repositories\\Semesters\\SemesterRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:16:23.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\CourseDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\CourseDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\CourseDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\CourseDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:23:27.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartmentDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\DepartmentDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\DepartmentDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\DepartmentDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\DepartmentDetailsViewModel.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:23:22.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssessmentDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\AssessmentDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\AssessmentDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\AssessmentDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\AssessmentDetailsViewModel.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:23:28.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MarkDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\MarkDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\MarkDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\MarkDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\MarkDetailsViewModel.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAIwBgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:23:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SemesterDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\SemesterDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\SemesterDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Windows\\SemesterDetailsViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Windows\\SemesterDetailsViewModel.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAiwHAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:22:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SemesterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:22:21.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MarkPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\MarkPage.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\MarkPage.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\MarkPage.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\MarkPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:22:18.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SemesterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\Views\\Pages\\SemesterPage.xaml.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:22:12.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\App.xaml.cs",
+              "RelativeToolTip": "WPFApp\\App.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:18:11.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SemesterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Pages\\SemesterViewModel.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Admin\\ViewModels\\Pages\\SemesterViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Admin\\ViewModels\\Pages\\SemesterViewModel.cs",
+              "RelativeToolTip": "WPFApp\\UI\\Admin\\ViewModels\\Pages\\SemesterViewModel.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwF0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:15:15.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Courses\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Courses\\CourseRepository.cs",
+              "RelativeToolTip": "Repositories\\Courses\\CourseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:13:19.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EnrollmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Enrollments\\EnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Enrollments\\EnrollmentRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\Repositories\\Enrollments\\EnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\Enrollments\\EnrollmentRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:12:03.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Public\\Views\\Pages\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\Public\\Views\\Pages\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\Public\\Views\\Pages\\LoginView.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\Public\\Views\\Pages\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:09:50.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InfoSettingView.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:08:58.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InfoSettingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UI\\User\\Views\\Pages\\InfoSettingView.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAawDwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:06:18.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CourseDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml",
+              "RelativeToolTip": "WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T18:01:14.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CourseDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\Supports\\1. NET\\PRM221\\financial_management_wpf\\WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UI\\User\\Views\\Windows\\CourseDetails.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwEwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:59:07.192Z",
               "EditorCaption": ""
             }
           ]

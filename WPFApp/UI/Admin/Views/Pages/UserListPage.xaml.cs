@@ -27,7 +27,7 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
 
         public List<Student> accounts = new List<Student>();
 
-        private readonly IDepartmentService _service;
+        private readonly IStudentService _service;
 
         public void InitializePageSize()
         {
@@ -43,9 +43,9 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
             DataContext = this;
 
             InitializeComponent();
+            LoadAccounts();
             InitializePageSize();
             InitializePagination();
-            LoadAccounts();
         }
 
         public async void LoadAccounts()

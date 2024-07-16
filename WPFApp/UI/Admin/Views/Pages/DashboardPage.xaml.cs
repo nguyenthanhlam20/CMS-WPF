@@ -1,5 +1,4 @@
 ﻿using DataAccess.Models;
-using WPFApp.Models;
 using LiveCharts;
 using LiveCharts.Wpf;
 using System;
@@ -10,9 +9,7 @@ using System.Windows.Media;
 
 namespace WPFApp.UI.Admin.ViewModels.Pages
 {
-    /// <summary>
-    /// Interaction logic for DashboardPage.xaml
-    /// </summary>
+
     public partial class DashboardPage : Page
     {
         public LiveCharts.SeriesCollection SeriesCollection { get; set; }
@@ -24,7 +21,6 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
         public DashboardPage()
         {
             InitializeComponent();
-            GetCardData();
             LoadYears();
             CreateBarChart();
             DataContext = this;
@@ -61,10 +57,11 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
             {
 
                 List<Student> accounts = context.Students.Where(x => x.Birthdate!.Value.Year == currentYear).ToList();
-
-
                 List<int> users = new();
 
+                lbTotalTransaction.Content = context.Courses.Count();
+                lbTotalUser.Content = context.Students.Count();
+                lbNewUser.Content = "5".ToString();
 
                 for (int i = 1; i <= 12; i++)
                 {
@@ -80,10 +77,6 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
 
                 }
 
-
-
-
-
                 SeriesCollection.Add(new ColumnSeries
                 {
                     Title = "Students",
@@ -92,24 +85,9 @@ namespace WPFApp.UI.Admin.ViewModels.Pages
                     Values = new ChartValues<int>(users)
                 });
 
-
-
-
                 Labels = new[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
                 chartHorizontal.Series = SeriesCollection;
             }
-
-
-
-
-        }
-
-
-        public void GetCardData()
-        {
-            lbTotalTransaction.Content = "10".ToString();
-            lbTotalUser.Content = "20".ToString();
-            lbNewUser.Content = "5".ToString();
         }
 
         private void cbYears_SelectionChanged(object sender, SelectionChangedEventArgs e)

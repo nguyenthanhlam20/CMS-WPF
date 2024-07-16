@@ -92,13 +92,13 @@ namespace WPFApp.UI.Admin.ViewModels.Windows
             if (aType == ActionType.Edit)
             {
                 Title = "edit course".ToUpper();
-                GetWalletDetails();
+                GetDetails();
             }
 
             if (aType == ActionType.View)
             {
                 Title = "view course".ToUpper();
-                GetWalletDetails();
+                GetDetails();
             }
         }
 
@@ -136,7 +136,7 @@ namespace WPFApp.UI.Admin.ViewModels.Windows
             w?.Close();
         }
 
-        public async void GetWalletDetails()
+        public async void GetDetails()
         {
             var data = await _service.GetAll();
             var item = data.SingleOrDefault(x => x.Id == Id);

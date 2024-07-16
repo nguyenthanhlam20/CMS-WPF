@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
-using System.Windows.Input;
-using WPFApp.UI.Public.Views.Pages;
 using WPFApp.UI.User.Commands;
 using WPFApp.UI.User.Views.Pages;
 
@@ -66,7 +58,7 @@ namespace WPFApp.UI.User.ViewModels
         public UserMainWindowViewModel()
         {
             UserMainWindowCommand commands = new UserMainWindowCommand(this);
-            CurrentPage = new DashboardView();
+            CurrentPage = new InfoSettingView();
         }
     }
 }

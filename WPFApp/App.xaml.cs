@@ -11,6 +11,7 @@ using Repositories.Authen;
 using Services;
 using Services.Authen;
 using Microsoft.Extensions.Hosting;
+using System.Windows.Threading;
 
 namespace WPFApp
 {
@@ -19,45 +20,37 @@ namespace WPFApp
     /// </summary>
     public partial class App : Application
     {
-        private IHost _host;
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
+            DispatcherUnhandledException += App_DispatcherUnhandledException;
+        }
+
+        private void App_DispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
+        {
+            try
+            {
+                if (e.Exception != null) throw new Exception();
+                {
+                  
+                }
+                e.Handled = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show($"An error occurred: {e.Exception.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            MessageBox.Show($"An unhandled error occurred: {(e.ExceptionObject as Exception)?.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
         public App()
         {
-            _host = Host.CreateDefaultBuilder()
-                    .ConfigureServices((context, services) =>
-                    {
-                        ConfigureServices(services);
-                    }).Build();
         }
 
-        private void ConfigureServices(IServiceCollection services)
-        {
-            services.AddDbContext<CourseManagementDBContext>();
-
-            services.AddTransient<IAuthenRepository, AuthenRepository>();
-            services.AddTransient<IAuthenService, AuthenService>();
-
-            services.AddTransient<IStudentRepository, StudentRepository>();
-            services.AddTransient<IDepartmentService, DepartmentService>();
-
-            services.AddScoped<MainWindowView>();
-            services.AddScoped<LoginViewModel>();
-            services.AddScoped<LoginCommand>();
-        }
-
-        protected override async void OnStartup(StartupEventArgs e)
-        {
-            await _host.StartAsync();
-            base.OnStartup(e);
-        }
-
-        protected override async void OnExit(ExitEventArgs e)
-        {
-            using (_host)
-            {
-                await _host.StopAsync();
-            }
-
-            base.OnExit(e);
-        }
+    
     }
 }

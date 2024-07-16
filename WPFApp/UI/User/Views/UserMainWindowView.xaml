@@ -35,12 +35,12 @@
                     </Grid.RowDefinitions>
 
                     <StackPanel Orientation="Horizontal" Margin="20 0 0 0">
-                        <Icon:PackIconMaterial Kind="CashMultiple" Margin="0 0 10 0" 
+                        <Icon:PackIconMaterial Kind="Book" Margin="0 0 10 0" 
                                                Width="{DynamicResource appFontSize}" 
                                                Height="{DynamicResource appFontSize}" 
                                                 Foreground="{DynamicResource SecondaryTextColor}"
                                                VerticalAlignment="Center" />
-                        <Label Content="{DynamicResource appName}" 
+                        <Label Content="Student" 
                        FontWeight="ExtraBold"
                                Foreground="{DynamicResource SecondaryTextColor}"
                                VerticalAlignment="Center"
@@ -51,90 +51,29 @@
 
                     <StackPanel Grid.Row="1" Orientation="Vertical" >
                         <RadioButton x:Name="rdDashboard" 
-                                     Content="Dashboard" 
+                                     Content="My Profile" 
                                      IsChecked="True"
-                                     Click="rdDashboard_Click"
+                                     Click="rd_Click"
                                      Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource dashboard}"
+                                     Tag="{DynamicResource users}"
                                      Command="{Binding Path=OpenPage}"
-                                     CommandParameter="Dashboard"
+                                     CommandParameter="My Profile"
                                      Margin="0 30 0 0" ></RadioButton>
                         <RadioButton x:Name="rdTransactions"
-                                     Content="Transactions"
-                                     Click="rdDashboard_Click"
+                                     Content="My Courses"
                                      Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource analytics}" 
-                                     Command="{Binding Path=OpenPage}"
-                                    CommandParameter="Transaction"
-
-                                     Margin="0 1 0 0" ></RadioButton>
-                        <!--<RadioButton x:Name="rdReports" 
-                                     Content="Reports" 
-                                      Click="rdDashboard_Click"
-                                     Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource maximize}" 
-                                     Command="{Binding Path=OpenPage}"
-                                     CommandParameter="Report"
-                                     Margin="0 1 0 0" ></RadioButton>-->
-                        <RadioButton x:Name="rdMyWallets" 
-                                     Content="My Wallets" 
-                                      Click="rdDashboard_Click"
-                                     Style="{DynamicResource MenuRadioButtonStyle}"  
                                      Tag="{DynamicResource collections}" 
                                      Command="{Binding Path=OpenPage}"
-                                      CommandParameter="MyWallet"
-                                     Margin="0 1 0 0" ></RadioButton>
+                                    CommandParameter="My Courses"
+                                     Click="rd_Click"
 
+                                     Margin="0 1 0 0" ></RadioButton>
+                      
 
                         <Separator Margin="20 20" Background="{DynamicResource TertiaryBackgroundColor}" />
-                        <!--<RadioButton x:Name="rdPrice" 
-                                     Content="Pricing" 
-                                      Click="rdDashboard_Click"
-                                     Style="{DynamicResource MenuRadioButtonStyle}"  
-                                     Command="{Binding Path=OpenPage}"
-                                      CommandParameter="Pricing"
-                                     Tag="{DynamicResource messages}"></RadioButton>-->
-                        <!--<RadioButton x:Name="rdNotifications" 
-                                     Content="Notifications" 
-                                      Click="rdDashboard_Click"
-                                     Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource notifications}"
-                                     Command="{Binding Path=OpenPage}"
-                                      CommandParameter="Notification"
-                                     Margin="0 1 0 0" ></RadioButton>-->
-                        <RadioButton x:Name="rdSettings" 
-                                     Content="Settings" 
-                                      Click="rdDashboard_Click"
-                                     Command="{Binding Path=OpenPage}"
-                                     CommandParameter="InfoSetting"
-                                     Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource settings}" ></RadioButton>
-
+                      
 
                     </StackPanel>
-
-                    <Border Grid.Row="1"
-                            Margin="30,350,49,25"
-                           Height="150"
-                            CornerRadius="100"
-                            Background="{DynamicResource PrimaryBlueColor}" Grid.RowSpan="2">
-                        <Border.BitmapEffect>
-                            <DropShadowBitmapEffect
-                                            ShadowDepth="1"
-                                            Direction="0"
-                                            Color="#5B8DEF"
-                                            Softness="0.8"/>
-                        </Border.BitmapEffect>
-                        <Grid Margin="20">
-                            <Icon:PackIconMaterial Kind="Clock" 
-                                                   Width="100" 
-                                                   Height="100" 
-                                                   Foreground="{DynamicResource TertiaryWhiteColor}" 
-                                                   HorizontalAlignment="Center" VerticalAlignment="Center" />
-                        </Grid>
-                    </Border>
-
-
 
                     <Button Command="{Binding LogoutCommand}"  Style="{StaticResource PowerOffButton}"
                             HorizontalAlignment="Left"  

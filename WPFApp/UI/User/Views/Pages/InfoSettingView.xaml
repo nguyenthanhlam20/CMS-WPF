@@ -11,7 +11,7 @@
 
     <Border Padding="120 5 20 0" Background="{DynamicResource SecondaryBackgroundColor}">
         <StackPanel>
-            <Label Padding="0 5 5 0" Content="Account Information" Foreground="{DynamicResource SecondaryTextColor}" FontSize="20" FontWeight="Bold" />
+            <Label Padding="0 5 5 0" Content="My Profile" Foreground="{DynamicResource SecondaryTextColor}" FontSize="20" FontWeight="Bold" />
             <Label Padding="0"  Foreground="{DynamicResource SecondaryTextColor}"
                    Content="Update your account information" Opacity="0.7" />
             <Label Content="Personal Information" Foreground="{DynamicResource SecondaryTextColor}"
@@ -50,39 +50,22 @@
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
                     <Label Foreground="{DynamicResource SecondaryTextColor}"
-                           Content="Phone" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
-                    <TextBox x:Name="txtPhone" Style="{StaticResource StyledTextBox}"
+                           Content="City" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtCity" Style="{StaticResource StyledTextBox}"
                            
-                             Tag="Enter your phone number"
+                             Tag="Enter your city"
                              Width="400" />
                 </StackPanel>
             </StackPanel>
             <StackPanel Orientation="Horizontal"  Margin="0 0 0 20" >
                 <StackPanel Orientation="Vertical" Margin="0 0 40 0">
-                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Email" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
-                    <TextBox x:Name="txtEmail" Style="{StaticResource StyledTextBox}"
-                             Tag="Enter your email"
-                             IsEnabled="False"
+                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Address" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
+                    <TextBox x:Name="txtAddress" Style="{StaticResource StyledTextBox}"
+                             Tag="Enter your address"
                              Width="840" />
+                    <TextBox x:Name="txtId" Visibility="Hidden" />
                 </StackPanel>
                
-            </StackPanel>
-            <StackPanel Orientation="Horizontal"  Margin="0 0 0 20" >
-                <StackPanel Orientation="Vertical" Margin="0 0 40 0">
-                    <Label Foreground="{DynamicResource SecondaryTextColor}" Content="Password" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
-                    <TextBox x:Name="txtPassword" Style="{StaticResource StyledTextBox}"
-                             Tag="Enter your password"
-                             
-                             Width="400" />
-                </StackPanel>
-                <StackPanel Orientation="Vertical">
-                    <Label Foreground="{DynamicResource SecondaryTextColor}"
-                           Content="Confirm Password" Padding="0 5 0 5" FontSize="{DynamicResource textFontSize}" FontWeight="Bold" Opacity="0.8" />
-                    <TextBox x:Name="txtConfirmPassword" Style="{StaticResource StyledTextBox}"
-                           
-                             Tag="Confirm your password"
-                             Width="400" />
-                </StackPanel>
             </StackPanel>
             <Button x:Name="btnUpdate" Click="btnUpdate_Click" Style="{DynamicResource AddButton}" HorizontalAlignment="Left" Margin="0 20 0 0"  Width="150" >
                 <StackPanel Orientation="Horizontal"

@@ -1,14 +1,13 @@
 ﻿
 using DataAccess.Models;
-using Repositories;
 
 namespace Services
 {
     public class DepartmentService : IDepartmentService
     {
-        private readonly IStudentRepository _repository;
+        private readonly IDepartmentRepository _repository;
 
-        public DepartmentService() => _repository = new StudentRepository();
+        public DepartmentService() => _repository = new DepartmentRepository();
 
         public async Task AddNew(Department item) => await _repository.AddNew(item);
 

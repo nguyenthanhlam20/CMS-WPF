@@ -24,13 +24,19 @@ namespace Services
 
         public async Task Update(Department item)
         {
-            using var _context = new CourseManagementDBContext();
-            var exist = await _context.Departments.FirstOrDefaultAsync(x => x.Code == item.Code);
-            if (exist != null)
+            try
             {
-                exist.Name = item.Name;
-                _context.Departments.Update(exist);
-                await _context.SaveChangesAsync();
+                using var _context = new CourseManagementDBContext();
+                var exist = await _context.Departments.FirstOrDefaultAsync(x => x.Code == item.Code);
+                if (exist != null)
+                {
+                    exist.Name = item.Name;
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
     }

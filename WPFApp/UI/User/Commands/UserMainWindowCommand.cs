@@ -38,42 +38,18 @@ namespace WPFApp.UI.User.Commands
             Frame frame = (Frame)Application.Current.MainWindow.FindName("frameContent");
 
             string page = parameter.ToString();
-
-
             _viewModel.Title = page;
 
-            if (page == "Dashboard")
-            {
-                frame.Navigate(new DashboardView());
-            }
-
-
-            if (page == "Transaction")
-            {
-
-                //MessageBox.Show("(" + page + "), " + frame.Name + ", " + Application.Current.MainWindow.Name);
-                frame.Navigate(new TransactionView());
-            }
-
-            if (page == "MyWallet")
-            {
-            }
-
-            if (page == "Notification")
-            {
-                //frame.Navigate(new Notification());
-            }
-
-            if (page == "Report")
-            {
-                frame.Navigate(new ReportView());
-            }
-
-            if (page == "InfoSetting")
+            if (page == "My Profile")
             {
                 frame.Navigate(new InfoSettingView());
             }
 
+
+            if (page == "My Courses")
+            {
+                frame.Navigate(new CoursePage());
+            }
         }
 
         private void MaximizeWindow(object parameter)
@@ -95,12 +71,7 @@ namespace WPFApp.UI.User.Commands
             mainWindow.WindowState = WindowState.Minimized;
         }
 
-        private void CloseWindow(object parameter)
-        {
-
-            Application.Current.Shutdown();
-
-        }
+        private void CloseWindow(object parameter) => Application.Current.Shutdown();
 
         private void SwitchTheme(object parameter)
         {

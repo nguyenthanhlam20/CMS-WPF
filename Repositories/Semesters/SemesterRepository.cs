@@ -8,12 +8,19 @@ namespace Repositories
     {
         public async Task AddNew(Semester item)
         {
-            using (var _context = new CourseManagementDBContext())
+            try
             {
-                var nextId = _context.Semesters.Max(c => c.Id);
-                item.Id = nextId + 1;
-                _context.Semesters.Add(item);
-                await _context.SaveChangesAsync();
+                using (var _context = new CourseManagementDBContext())
+                {
+                    var nextId = _context.Semesters.Max(c => c.Id);
+                    item.Id = nextId + 1;
+                    _context.Semesters.Add(item);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
 
@@ -25,17 +32,24 @@ namespace Repositories
 
         public async Task Update(Semester item)
         {
-            using var _context = new CourseManagementDBContext();
-            var exist = await _context.Semesters.FirstOrDefaultAsync(x => x.Id == item.Id);
-            if (exist != null)
+            try
             {
-                exist.Code = item.Code;
-                exist.Year = item.Year;
-                exist.BeginDate = item.BeginDate;
-                exist.EndDate = item.EndDate;
-               
-                _context.Semesters.Update(exist);
-                await _context.SaveChangesAsync();
+                using var _context = new CourseManagementDBContext();
+                var exist = await _context.Semesters.FirstOrDefaultAsync(x => x.Id == item.Id);
+                if (exist != null)
+                {
+                    exist.Code = item.Code;
+                    exist.Year = item.Year;
+                    exist.BeginDate = item.BeginDate;
+                    exist.EndDate = item.EndDate;
+
+                    _context.Semesters.Update(exist);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
     }

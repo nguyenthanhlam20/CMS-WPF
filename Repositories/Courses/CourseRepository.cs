@@ -8,33 +8,46 @@ namespace Repositories
     {
         public async Task AddNew(Course item)
         {
-            using (var _context = new CourseManagementDBContext())
+            try
             {
-                var nextId = _context.Courses.Max(c => c.Id);
-                item.Id = nextId + 1;
-                _context.Courses.Add(item);
-                await _context.SaveChangesAsync();
+                using (var _context = new CourseManagementDBContext())
+                {
+                    var nextId = _context.Courses.Max(c => c.Id);
+                    item.Id = nextId + 1;
+                    _context.Courses.Add(item);
+                    await _context.SaveChangesAsync();
+                }
             }
+            catch (Exception)
+            {
 
+            }
         }
 
         public async Task<List<Course>> GetAll()
         {
             using var _context = new CourseManagementDBContext();
-            return await _context.Courses.OrderByDescending(x => x.Id).ToListAsync();
+            return await _context.Courses.Include(x => x.Enrollments).OrderByDescending(x => x.Id).ToListAsync();
         }
 
         public async Task Update(Course item)
         {
-            using var _context = new CourseManagementDBContext();
-            var exist = await _context.Courses.FirstOrDefaultAsync(x => x.Id == item.Id);
-            if (exist != null)
+            try
             {
-                exist.Code = item.Code;
-                exist.Title = item.Title;
-                exist.Credits = item.Credits;
-                _context.Courses.Update(exist);
-                await _context.SaveChangesAsync();
+                using var _context = new CourseManagementDBContext();
+                var exist = await _context.Courses.FirstOrDefaultAsync(x => x.Id == item.Id);
+                if (exist != null)
+                {
+                    exist.Code = item.Code;
+                    exist.Title = item.Title;
+                    exist.Credits = item.Credits;
+                    _context.Courses.Update(exist);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
     }

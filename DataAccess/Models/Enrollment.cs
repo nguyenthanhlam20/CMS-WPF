@@ -15,6 +15,13 @@ namespace DataAccess.Models
         public int? CourseId { get; set; }
         public int? SemesterId { get; set; }
 
+        public string DisplayName
+        {
+            get
+            {
+                return $"{Student?.Name} - {Course?.Code} - {Semester?.Code}";
+            }
+        }
         public virtual Course? Course { get; set; }
         public virtual Semester? Semester { get; set; }
         public virtual Student? Student { get; set; }

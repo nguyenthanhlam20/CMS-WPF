@@ -1,18 +1,10 @@
-﻿using WPFApp.Models;
+﻿using DataAccess.Models;
+using Services;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WPFApp.Contexts;
 
 namespace WPFApp.UI.User.Views.Pages
 {
@@ -21,64 +13,52 @@ namespace WPFApp.UI.User.Views.Pages
     /// </summary>
     public partial class InfoSettingView : System.Windows.Controls.Page
     {
+        private readonly IStudentService _service;
         public InfoSettingView()
         {
+            _service = new StudentService();
             InitializeComponent();
             LoadData();
         }
 
-        public void LoadData()
+        public async void LoadData()
         {
-            using (var context = new FinancialManagementContext())
+            var data = await _service.GetAll();
+            var ac = data.FirstOrDefault(x => x.Name == GlobalVariables.Username);
+
+            if (ac != null)
             {
-
-                Account ac = context.Accounts.SingleOrDefault(a => a.Email == "");
-
-                if (ac != null)
+                GlobalVariables.StudentId = ac.Id;
+                txtId.Text = ac.Id.ToString();
+                txtAddress.Text = ac.Address;
+                txtFullname.Text = ac.Name;
+                txtCity.Text = ac.City;
+                dpDOB.Text = ac.Birthdate.ToString();
+                if (ac.Gender == "Male")
                 {
-
-                    txtEmail.Text = ac.Email;
-                    txtFullname.Text = ac.FullName;
-                    txtPhone.Text = ac.Phone;
-                    txtPassword.Text = ac.Password;
-                    txtConfirmPassword.Text = ac.Password;
-                    dpDOB.Text = ac.Dob.ToString();
-                    if (ac.Gender == true)
-                    {
-                        rdMale.IsChecked = true;
-                    }
-                    else
-                    {
-                        rdFemale.IsChecked = true;
-                    }
+                    rdMale.IsChecked = true;
+                }
+                else
+                {
+                    rdFemale.IsChecked = true;
                 }
             }
         }
 
-        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        private void btnUpdate_Click(object sender, RoutedEventArgs e) => Update();
+
+        public async void Update()
         {
-            using (var context = new FinancialManagementContext())
+            await _service.Update(new Student()
             {
+                Id = int.Parse(txtId.Text),
+                Address = txtAddress.Text,
+                City = txtCity.Text,
+                Name = txtFullname.Text,
+                Birthdate = DateTime.Parse(dpDOB.Text)
+            });
 
-                Account ac = context.Accounts.SingleOrDefault(a => a.Email == "");
-
-                if (ac != null)
-                {
-
-                    ac.Email = txtEmail.Text;
-                    ac.FullName = txtFullname.Text;
-                    ac.Phone = txtPhone.Text;
-                    ac.Password = txtPassword.Text;
-                    ac.Dob = DateTime.Parse(dpDOB.Text);
-                    ac.Gender = rdMale.IsChecked;
-
-                    context.Update(ac);
-                    if (context.SaveChanges() > 0)
-                    {
-                        MessageBox.Show("Update information succesful");
-                    }
-                }
-            }
+            MessageBox.Show("Update info successfully.");
         }
     }
 }

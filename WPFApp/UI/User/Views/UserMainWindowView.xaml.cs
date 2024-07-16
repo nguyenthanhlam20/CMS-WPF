@@ -26,11 +26,9 @@ namespace WPFApp.UI.User.Views
             UserMainWindowViewModel viewModal = new UserMainWindowViewModel();
         }
 
-        private void rdDashboard_Click(object sender, RoutedEventArgs e)
+        private void rd_Click(object sender, RoutedEventArgs e)
         {
             lbTitle.Content = (sender as RadioButton).Content;
         }
-
-     
     }
 }

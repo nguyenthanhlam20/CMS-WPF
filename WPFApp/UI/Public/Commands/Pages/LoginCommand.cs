@@ -3,6 +3,10 @@ using WPFApp.UI.Public.ViewModels.Pages;
 using Services.Authen;
 using System;
 using System.Windows;
+using WPFApp.UI.User.Commands;
+using WPFApp.UI.User.Views;
+using WPFApp.UI.Staff.Views;
+using WPFApp.Contexts;
 
 namespace WPFApp.UI.Public.Commands.Pages
 {
@@ -29,10 +33,33 @@ namespace WPFApp.UI.Public.Commands.Pages
             }
             else
             {
-                var success = await _service.Login(_viewModel.Email, _viewModel.Password);
+                var email = _viewModel.Email;
+                var password = _viewModel.Password;
+                
+                dynamic window = new AdminMainWindowView();
+
+                if (email == "Admin" && password == "@admin123")
+                {
+                    window = new AdminMainWindowView();
+                } else if(email == "Staff" && password == "@staff123")
+                {
+                    window = new StaffMainWindowView();
+                }
+                else
+                {
+                    var success = await _service.Login(_viewModel.Email, _viewModel.Password);
+                    
+                    if(!success)
+                    {
+                        MessageBox.Show("Incorrect email or password");
+                        return;
+                    }
+
+                    GlobalVariables.Username = email;
+                    window = new UserMainWindowView();
+                }
 
                 Application.Current.MainWindow.Hide();
-                var window = new AdminMainWindowView();
                 Application.Current.MainWindow = window;
                 Application.Current.MainWindow.Show();
             }

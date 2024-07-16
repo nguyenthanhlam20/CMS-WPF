@@ -2,15 +2,19 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Assets\Fonts\**" />
     <Compile Remove="Converters\**" />
+    <EmbeddedResource Remove="Assets\Fonts\**" />
     <EmbeddedResource Remove="Converters\**" />
+    <None Remove="Assets\Fonts\**" />
     <None Remove="Converters\**" />
+    <Page Remove="Assets\Fonts\**" />
     <Page Remove="Converters\**" />
   </ItemGroup>
 
@@ -28,10 +32,6 @@
       <Isolated>false</Isolated>
       <EmbedInteropTypes>true</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Assets\Fonts\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,7 +63,40 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Update="UI\Admin\Views\Pages\CoursePage.xaml.cs">
+    <Compile Update="UI\Staff\Views\StaffMainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Staff\Views\Pages\AssessmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Staff\Views\Pages\DashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Staff\Views\Pages\EnrollmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Staff\Views\Pages\MarkPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Staff\Views\Pages\UserListPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\DepartmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\AssessmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\MarkPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\EnrollmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\SemesterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Admin\Views\Pages\SemesterPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

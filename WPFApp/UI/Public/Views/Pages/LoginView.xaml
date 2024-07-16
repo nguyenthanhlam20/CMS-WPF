@@ -42,7 +42,7 @@
 
                 <StackPanel Margin="0 30 0 0 " Orientation="Vertical">
                     <Label  Foreground="{DynamicResource SecondaryTextColor}" Style="{DynamicResource StyledLabel}"
-            Content="Email" 
+            Content="Password" 
             FontWeight="SemiBold" 
             Margin="0 0 0 5"/>
                     <TextBox Style="{DynamicResource StyledTextBox}" 

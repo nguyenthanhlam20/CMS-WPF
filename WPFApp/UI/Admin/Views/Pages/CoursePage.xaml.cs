@@ -72,11 +72,11 @@ namespace WPFApp.UI.Admin.Views.Pages
             Reset(page: int.Parse(index));
         }
 
-        private void Reset(int? page)
+        private async void Reset(int? page)
         {
             if (page != null) _viewModel.CurrentPage = page.Value;
             InitializePagination();
-            _viewModel.LoadItems();
+            await _viewModel.LoadItems();
         }
 
         private void cbPage_SelectionChanged(object sender, SelectionChangedEventArgs e)

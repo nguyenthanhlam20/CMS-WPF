@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\ADMIN\Downloads\Supports\1. NET\PRM221\financial_management_wpf\WPFApp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
@@ -25,22 +27,10 @@
     <Compile Update="UI\Public\Views\Pages\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\User\Views\Pages\DashboardView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UI\User\Views\Pages\InfoSettingView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\User\Views\Pages\ReportView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UI\User\Views\UserMainWindowView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UI\User\Views\Pages\TransactionView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UI\User\Views\Windows\TransactionDetails.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -81,6 +71,48 @@
     <Page Update="Themes\LightTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UI\Staff\Views\StaffMainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Pages\AssessmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Pages\DashboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Pages\EnrollmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Pages\MarkPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Pages\UserListPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Windows\AssessmentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Windows\EnrollmentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Staff\Views\Windows\MarkDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\DepartmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\AssessmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\MarkPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\EnrollmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\SemesterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UI\Admin\Views\Pages\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -93,28 +125,37 @@
     <Page Update="UI\Admin\Views\AdminMainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UI\Admin\Views\Windows\DepartmentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Windows\AssessmentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Windows\MarkDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Windows\EnrollmentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Windows\SemesterDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UI\Public\Views\MainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Public\Views\Pages\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\User\Views\Pages\DashboardView.xaml">
+    <Page Update="UI\User\Views\Pages\CoursePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\User\Views\Pages\InfoSettingView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\User\Views\Pages\ReportView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="UI\User\Views\UserMainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\User\Views\Pages\TransactionView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UI\User\Views\Windows\TransactionDetails.xaml">
+    <Page Update="UI\User\Views\Windows\CourseDetails.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

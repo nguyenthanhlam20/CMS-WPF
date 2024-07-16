@@ -44,6 +44,21 @@ namespace WPFApp.UI.Admin.Commands
 
             if (page == "Courses")
                 frame.Navigate(new CoursePage());
+
+            if (page == "Semesters")
+                frame.Navigate(new SemesterPage()); 
+            
+            if (page == "Departments")
+                frame.Navigate(new DepartmentPage());
+
+            if (page == "Assessments")
+                frame.Navigate(new AssessmentPage());
+
+            if (page == "Enrollments")
+                frame.Navigate(new EnrollmentPage());
+
+            if (page == "Marks")
+                frame.Navigate(new MarkPage());
         }
 
         private void MaximizeWindow(object parameter)

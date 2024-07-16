@@ -16,7 +16,7 @@ namespace WPFApp.UI.Admin.Views
             DataContext = new AdminMainWindowViewModel();
         }
 
-        private void rdDashboard_Click(object sender, RoutedEventArgs e)
+        private void rd_Click(object sender, RoutedEventArgs e)
         {
             lbTitle.Content = (sender as RadioButton).Content;
         }
