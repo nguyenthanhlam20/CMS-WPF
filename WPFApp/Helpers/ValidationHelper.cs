@@ -1,4 +1,4 @@
-﻿using FinancialWPFApp.Models;
+﻿using WPFApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace FinancialWPFApp.Helpers
+namespace WPFApp.Helpers
 {
     public static class ValidationHelper
     {

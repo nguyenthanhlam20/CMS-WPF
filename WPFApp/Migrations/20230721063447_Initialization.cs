@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace FinancialWPFApp.Migrations
+namespace WPFApp.Migrations
 {
     public partial class Initialization : Migration
     {

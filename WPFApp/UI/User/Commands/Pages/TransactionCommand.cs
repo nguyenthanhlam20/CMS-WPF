@@ -1,5 +1,5 @@
-﻿using FinancialWPFApp.UI.User.ViewModels.Pages;
-using FinancialWPFApp.UI.User.Views.Windows;
+﻿using WPFApp.UI.User.ViewModels.Pages;
+using WPFApp.UI.User.Views.Windows;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace FinancialWPFApp.UI.User.Commands.Pages
+namespace WPFApp.UI.User.Commands.Pages
 {
     public class TransactionCommand
     {

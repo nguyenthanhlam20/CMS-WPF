@@ -1,6 +1,6 @@
-﻿using FinancialWPFApp.Constants;
-using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.User.ViewModels.Pages;
+﻿using WPFApp.Constants;
+using WPFApp.Models;
+using WPFApp.UI.User.ViewModels.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace FinancialWPFApp.UI.User.Views.Pages
+namespace WPFApp.UI.User.Views.Pages
 {
     /// <summary>
     /// Interaction logic for Transaction.xaml

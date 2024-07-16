@@ -9,17 +9,9 @@
 
   <ItemGroup>
     <Compile Remove="Converters\**" />
-    <Compile Remove="UI\Admin\Commands\Pages\**" />
-    <Compile Remove="UI\Admin\Views\Pages\**" />
     <EmbeddedResource Remove="Converters\**" />
-    <EmbeddedResource Remove="UI\Admin\Commands\Pages\**" />
-    <EmbeddedResource Remove="UI\Admin\Views\Pages\**" />
     <None Remove="Converters\**" />
-    <None Remove="UI\Admin\Commands\Pages\**" />
-    <None Remove="UI\Admin\Views\Pages\**" />
     <Page Remove="Converters\**" />
-    <Page Remove="UI\Admin\Commands\Pages\**" />
-    <Page Remove="UI\Admin\Views\Pages\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -71,6 +63,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Update="UI\Admin\Views\Pages\CoursePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -82,7 +77,7 @@
 
   <ItemGroup>
     <Page Update="Assets\Icons\Icons.xaml">
-      <CustomToolNamespace>FinancialWPFApp</CustomToolNamespace>
+      <CustomToolNamespace>WPFApp</CustomToolNamespace>
       <CustomToolNamespace>WPFApp</CustomToolNamespace>
     </Page>
   </ItemGroup>

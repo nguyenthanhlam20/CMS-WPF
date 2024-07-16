@@ -1,6 +1,6 @@
-﻿using FinancialWPFApp.UI.Public.ViewModels.Pages;
+﻿using WPFApp.UI.Public.ViewModels.Pages;
 
-namespace FinancialWPFApp.UI.Public.Views.Pages
+namespace WPFApp.UI.Public.Views.Pages
 {
     /// <summary>
     /// Interaction logic for LoginView.xaml

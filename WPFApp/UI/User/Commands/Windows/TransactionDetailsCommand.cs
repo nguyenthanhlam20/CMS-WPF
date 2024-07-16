@@ -1,6 +1,6 @@
-﻿using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.User.ViewModels.Windows;
-using FinancialWPFApp.UI.User.Views.Pages;
+﻿using WPFApp.Models;
+using WPFApp.UI.User.ViewModels.Windows;
+using WPFApp.UI.User.Views.Pages;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows;
-using FinancialWPFApp.Constants;
+using WPFApp.Constants;
 
-namespace FinancialWPFApp.UI.User.Commands.Windows
+namespace WPFApp.UI.User.Commands.Windows
 {
     public class TransactionDetailsCommand
     {

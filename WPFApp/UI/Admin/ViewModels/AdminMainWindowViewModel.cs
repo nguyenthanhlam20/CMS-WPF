@@ -1,9 +1,8 @@
-﻿using FinancialWPFApp.UI.Admin.Commands;
-using FinancialWPFApp.UI.Admin.ViewModels.Pages;
+﻿using WPFApp.UI.Admin.Commands;
+using WPFApp.UI.Admin.ViewModels.Pages;
 using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
 
-namespace FinancialWPFApp.UI.Admin.ViewModels
+namespace WPFApp.UI.Admin.ViewModels
 {
     public class AdminMainWindowViewModel : INotifyPropertyChanged
     {
@@ -20,7 +19,7 @@ namespace FinancialWPFApp.UI.Admin.ViewModels
         public ReplayCommand? OpenPage { get; set; }
 
 
-        public object _currentPage;
+        public object _currentPage = new DashboardPage();
 
         public object CurrentPage
         {
@@ -52,12 +51,9 @@ namespace FinancialWPFApp.UI.Admin.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-
-
         public AdminMainWindowViewModel()
         {
-            var commands = new AdminMainWindowCommand(this);
-            CurrentPage = new DashboardPage();
+            _ = new AdminMainWindowCommand(this);
         }
     }
 }

@@ -1,8 +1,8 @@
-﻿using FinancialWPFApp.Constants;
+﻿using WPFApp.Constants;
 using System;
 using System.Collections.Generic;
 
-namespace FinancialWPFApp.Models
+namespace WPFApp.Models
 {
     public partial class Wallet
     {

@@ -9,38 +9,30 @@ namespace Repositories
 
         public async Task AddNew(Student item)
         {
-            using (var _context = new CourseManagementDBContext())
-            {
-                _context.Students.Add(item);
-                await _context.SaveChangesAsync();
-            }
+            using var _context = new CourseManagementDBContext();
+            _context.Students.Add(item);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<List<Student>> GetAll()
         {
-            using (var _context = new CourseManagementDBContext())
-            {
-                var list = await _context.Students.ToListAsync();
-                return list;
-            }
+            using var _context = new CourseManagementDBContext();
+            return await _context.Students.ToListAsync();
         }
 
         public async Task Update(Student item)
         {
-            using (var _context = new CourseManagementDBContext())
+            using var _context = new CourseManagementDBContext();
+            var exist = await _context.Students.FirstOrDefaultAsync(x => x.Id == item.Id);
+            if (exist != null)
             {
-                var exist = await _context.Students.FirstOrDefaultAsync(x => x.Id == item.Id);
-
-                if (exist != null)
-                {
-                    exist.Name = item.Name;
-                    exist.Address = item.Address;
-                    exist.City = item.City;
-                    exist.Country = item.Country;
-                    exist.Birthdate = item.Birthdate;
-                    _context.Students.Update(exist);
-                    await _context.SaveChangesAsync();
-                }
+                exist.Name = item.Name;
+                exist.Address = item.Address;
+                exist.City = item.City;
+                exist.Country = item.Country;
+                exist.Birthdate = item.Birthdate;
+                _context.Students.Update(exist);
+                await _context.SaveChangesAsync();
             }
         }
     }

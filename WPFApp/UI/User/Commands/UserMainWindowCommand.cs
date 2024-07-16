@@ -1,22 +1,12 @@
-﻿using FinancialWPFApp.Themes;
-using FinancialWPFApp.UI.User.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
-using FinancialWPFApp.UI.User.Views.Pages;
-using FinancialWPFApp.Constants;
-using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.Admin.Views;
-using FinancialWPFApp.UI.User.Views;
-using FinancialWPFApp.UI.Public.Views.Pages;
-using FinancialWPFApp.UI.Public.Views;
+using WPFApp.Themes;
+using WPFApp.UI.Public.Views;
+using WPFApp.UI.User.ViewModels;
+using WPFApp.UI.User.Views.Pages;
 
-namespace FinancialWPFApp.UI.User.Commands
+namespace WPFApp.UI.User.Commands
 {
     public class UserMainWindowCommand : Window
     {
@@ -67,7 +57,6 @@ namespace FinancialWPFApp.UI.User.Commands
 
             if (page == "MyWallet")
             {
-                frame.Navigate(new MyWallet());
             }
 
             if (page == "Notification")

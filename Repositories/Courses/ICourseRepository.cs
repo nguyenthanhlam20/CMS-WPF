@@ -1,9 +1,11 @@
-﻿namespace Repositories
+﻿using DataAccess.Models;
+
+namespace Repositories
 {
     public interface ICourseRepository
     {
-        Task<object> GetAll();
-        Task AddNew(object item);
-        Task Update(object item);
+        Task<List<Course>> GetAll();
+        Task AddNew(Course item);
+        Task Update(Course item);
     }
 }

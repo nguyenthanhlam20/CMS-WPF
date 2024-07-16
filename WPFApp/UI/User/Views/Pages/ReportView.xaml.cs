@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FinancialWPFApp.UI.User.Views.Pages
+namespace WPFApp.UI.User.Views.Pages
 {
     /// <summary>
     /// Interaction logic for ReportView.xaml

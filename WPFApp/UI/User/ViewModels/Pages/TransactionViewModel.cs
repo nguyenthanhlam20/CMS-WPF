@@ -1,6 +1,6 @@
-﻿using FinancialWPFApp.Constants;
-using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.User.Commands.Pages;
+﻿using WPFApp.Constants;
+using WPFApp.Models;
+using WPFApp.UI.User.Commands.Pages;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 
-namespace FinancialWPFApp.UI.User.ViewModels.Pages
+namespace WPFApp.UI.User.ViewModels.Pages
 {
     public class TransactionViewModel
     {

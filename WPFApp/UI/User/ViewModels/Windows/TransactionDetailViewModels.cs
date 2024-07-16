@@ -1,5 +1,5 @@
-﻿using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.User.Commands.Windows;
+﻿using WPFApp.Models;
+using WPFApp.UI.User.Commands.Windows;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using static FinancialWPFApp.Constants.AppConstants;
+using static WPFApp.Constants.AppConstants;
 
-namespace FinancialWPFApp.UI.User.ViewModels.Windows
+namespace WPFApp.UI.User.ViewModels.Windows
 {
     public class TransactionDetailsViewModel : INotifyPropertyChanged
     {

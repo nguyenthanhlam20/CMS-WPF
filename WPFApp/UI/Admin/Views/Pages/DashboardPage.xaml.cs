@@ -1,5 +1,5 @@
 ﻿using DataAccess.Models;
-using FinancialWPFApp.Models;
+using WPFApp.Models;
 using LiveCharts;
 using LiveCharts.Wpf;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
+namespace WPFApp.UI.Admin.ViewModels.Pages
 {
     /// <summary>
     /// Interaction logic for DashboardPage.xaml

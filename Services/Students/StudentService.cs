@@ -8,10 +8,7 @@ namespace Services
     {
         private readonly IStudentRepository _repository;
 
-        public StudentService()
-        {
-            _repository = new StudentRepository();
-        }
+        public StudentService() => _repository = new StudentRepository();
 
         public async Task AddNew(Student item) => await _repository.AddNew(item);
 

@@ -1,7 +1,7 @@
-﻿using FinancialWPFApp.UI.Public.ViewModels;
+﻿using WPFApp.UI.Public.ViewModels;
 using System.Windows;
 
-namespace FinancialWPFApp.UI.Public.Views
+namespace WPFApp.UI.Public.Views
 {
     /// <summary>
     /// Interaction logic for MainWindowView.xaml

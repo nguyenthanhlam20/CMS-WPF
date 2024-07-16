@@ -1,7 +1,7 @@
-﻿<Application x:Class="FinancialWPFApp.App"
+﻿<Application x:Class="WPFApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:FinancialWPFApp"
+             xmlns:local="clr-namespace:WPFApp"
              StartupUri="UI/Public/Views/MainWindowView.xaml"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Application.Resources>

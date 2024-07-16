@@ -1,9 +1,11 @@
-﻿namespace Services
+﻿using DataAccess.Models;
+
+namespace Services
 {
     public interface ICourseService
     {
-        Task<object> GetAll();
-        Task AddNew(object item);
-        Task Update(object item);
+        Task<List<Course>> GetAll();
+        Task AddNew(Course item);
+        Task Update(Course item);
     }
 }

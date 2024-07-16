@@ -10,10 +10,10 @@
     <Compile Update="Controls\MenuItem.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\Admin\ViewModels\Pages\DashboardPage.xaml.cs">
+    <Compile Update="UI\Admin\Views\Pages\DashboardPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\Admin\ViewModels\Pages\UserListPage.xaml.cs">
+    <Compile Update="UI\Admin\Views\Pages\UserListPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UI\Admin\Views\AdminMainWindowView.xaml.cs">
@@ -31,9 +31,6 @@
     <Compile Update="UI\User\Views\Pages\InfoSettingView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\User\Views\Pages\MyWallet.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UI\User\Views\Pages\ReportView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -44,9 +41,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UI\User\Views\Windows\TransactionDetails.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UI\User\Views\Windows\WalletDetails.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -87,10 +81,13 @@
     <Page Update="Themes\LightTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\Admin\ViewModels\Pages\DashboardPage.xaml">
+    <Page Update="UI\Admin\Views\Pages\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\Admin\ViewModels\Pages\UserListPage.xaml">
+    <Page Update="UI\Admin\Views\Pages\CoursePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Pages\UserListPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Admin\Views\AdminMainWindowView.xaml">
@@ -108,9 +105,6 @@
     <Page Update="UI\User\Views\Pages\InfoSettingView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UI\User\Views\Pages\MyWallet.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="UI\User\Views\Pages\ReportView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -121,9 +115,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\User\Views\Windows\TransactionDetails.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UI\User\Views\Windows\WalletDetails.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

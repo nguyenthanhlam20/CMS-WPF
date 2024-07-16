@@ -1,10 +1,10 @@
-﻿using FinancialWPFApp.UI.Admin.Views;
-using FinancialWPFApp.UI.Public.ViewModels.Pages;
+﻿using WPFApp.UI.Admin.Views;
+using WPFApp.UI.Public.ViewModels.Pages;
 using Services.Authen;
 using System;
 using System.Windows;
 
-namespace FinancialWPFApp.UI.Public.Commands.Pages
+namespace WPFApp.UI.Public.Commands.Pages
 {
     public class LoginCommand
     {

@@ -1,13 +1,13 @@
 ﻿using DataAccess.Models;
-using FinancialWPFApp.Models;
 using Services;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
+namespace WPFApp.UI.Admin.ViewModels.Pages
 {
     /// <summary>
     /// Interaction logic for UserListPage.xaml
@@ -27,7 +27,7 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
 
         public List<Student> accounts = new List<Student>();
 
-        private readonly IStudentService _service;
+        private readonly IDepartmentService _service;
 
         public void InitializePageSize()
         {
@@ -40,38 +40,36 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
         public UserListPage()
         {
             _service = new StudentService();
+            DataContext = this;
+
             InitializeComponent();
-            LoadAccounts();
             InitializePageSize();
             InitializePagination();
-            DataContext = this;
+            LoadAccounts();
         }
 
         public async void LoadAccounts()
         {
-            using (var context = new FinancialManagementContext())
+            accounts = await _service.GetAll();
+            totalRecords = accounts.Count();
+            lbTotal.Content = totalRecords.ToString();
+
+            int from = (currentPage - 1) * pageSize;
+
+            if (currentPage * pageSize >= totalRecords)
             {
-                accounts = await _service.GetAll();
-                totalRecords = accounts.Count();
-                lbTotal.Content = totalRecords.ToString();
-
-                int from = (currentPage - 1) * pageSize;
-
-                if (currentPage * pageSize >= totalRecords)
-                {
-                    int step = totalRecords - from;
-                    accounts = accounts.GetRange(from, step);
-                    lbFromIndex.Content = ((currentPage - 1) * pageSize + 1).ToString();
-                    lbToIndex.Content = totalRecords;
-                }
-                else
-                {
-                    accounts = accounts.GetRange(from, pageSize);
-                    lbFromIndex.Content = ((currentPage - 1) * pageSize + 1).ToString();
-                    lbToIndex.Content = currentPage * pageSize;
-                }
-                dgWallet.ItemsSource = accounts;
+                int step = totalRecords - from;
+                accounts = accounts.GetRange(from, step);
+                lbFromIndex.Content = ((currentPage - 1) * pageSize + 1).ToString();
+                lbToIndex.Content = totalRecords;
             }
+            else
+            {
+                accounts = accounts.GetRange(from, pageSize);
+                lbFromIndex.Content = ((currentPage - 1) * pageSize + 1).ToString();
+                lbToIndex.Content = currentPage * pageSize;
+            }
+            dgWallet.ItemsSource = accounts;
         }
         public void InitializePagination()
         {
@@ -118,6 +116,11 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
             //MessageBox.Show("Clic " + pageIndex);
 
             currentPage = pageIndex;
+            Reset();
+        }
+
+        private void Reset()
+        {
             LoadAccounts();
             InitializePagination();
         }
@@ -130,22 +133,13 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
                 int selectedIndex = cb?.SelectedIndex ?? 0;
 
                 if (selectedIndex == 0)
-                {
                     pageSize = 10;
 
-                }
-
                 if (selectedIndex == 1)
-                {
                     pageSize = 15;
 
-                }
-
                 if (selectedIndex == 2)
-                {
                     pageSize = 20;
-
-                }
             }
         }
 
@@ -153,9 +147,9 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
         {
             if (currentPage > 1)
             {
-
                 currentPage -= 1;
                 InitializePagination();
+                Reset();
             }
         }
 
@@ -163,12 +157,8 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
         {
             if (currentPage < totalPage)
             {
-
                 currentPage += 1;
-
-                LoadAccounts();
-                InitializePagination();
-
+                Reset();
             }
         }
 
@@ -177,9 +167,7 @@ namespace FinancialWPFApp.UI.Admin.ViewModels.Pages
             if (txtSearch.Text != null)
             {
                 filterSearch = txtSearch.Text;
-                LoadAccounts();
-                InitializePagination();
-
+                Reset();
             }
         }
     }

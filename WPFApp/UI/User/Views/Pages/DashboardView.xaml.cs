@@ -1,5 +1,5 @@
-﻿using FinancialWPFApp.Constants;
-using FinancialWPFApp.Models;
+﻿using WPFApp.Constants;
+using WPFApp.Models;
 using LiveCharts;
 using LiveCharts.Wpf;
 using Microsoft.Office.Interop.Excel;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace FinancialWPFApp.UI.User.Views.Pages
+namespace WPFApp.UI.User.Views.Pages
 {
     /// <summary>
     /// Interaction logic for DashboardView.xaml

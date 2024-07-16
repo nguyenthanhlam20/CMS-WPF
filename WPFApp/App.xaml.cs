@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Windows;
 using DataAccess.Models;
-using FinancialWPFApp.UI.Public.Commands.Pages;
-using FinancialWPFApp.UI.Public.ViewModels.Pages;
-using FinancialWPFApp.UI.Public.Views;
-using FinancialWPFApp.UI.Public.Views.Pages;
+using WPFApp.UI.Public.Commands.Pages;
+using WPFApp.UI.Public.ViewModels.Pages;
+using WPFApp.UI.Public.Views;
+using WPFApp.UI.Public.Views.Pages;
 using Microsoft.Extensions.DependencyInjection;
 using Repositories;
 using Repositories.Authen;
@@ -12,7 +12,7 @@ using Services;
 using Services.Authen;
 using Microsoft.Extensions.Hosting;
 
-namespace FinancialWPFApp
+namespace WPFApp
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -37,7 +37,7 @@ namespace FinancialWPFApp
             services.AddTransient<IAuthenService, AuthenService>();
 
             services.AddTransient<IStudentRepository, StudentRepository>();
-            services.AddTransient<IStudentService, StudentService>();
+            services.AddTransient<IDepartmentService, DepartmentService>();
 
             services.AddScoped<MainWindowView>();
             services.AddScoped<LoginViewModel>();

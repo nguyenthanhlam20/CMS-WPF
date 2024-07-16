@@ -1,8 +1,8 @@
-﻿using FinancialWPFApp.UI.Admin.ViewModels;
+﻿using WPFApp.UI.Admin.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace FinancialWPFApp.UI.Admin.Views
+namespace WPFApp.UI.Admin.Views
 {
     /// <summary>
     /// Interaction logic for MainWindowView.xaml

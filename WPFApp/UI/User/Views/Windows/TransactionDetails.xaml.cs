@@ -1,6 +1,6 @@
-﻿using FinancialWPFApp.Helpers;
-using FinancialWPFApp.Models;
-using FinancialWPFApp.UI.User.ViewModels.Windows;
+﻿using WPFApp.Helpers;
+using WPFApp.Models;
+using WPFApp.UI.User.ViewModels.Windows;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +14,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static FinancialWPFApp.Constants.AppConstants;
+using static WPFApp.Constants.AppConstants;
 
-namespace FinancialWPFApp.UI.User.Views.Windows
+namespace WPFApp.UI.User.Views.Windows
 {
     /// <summary>
     /// Interaction logic for TransactionDetails.xaml

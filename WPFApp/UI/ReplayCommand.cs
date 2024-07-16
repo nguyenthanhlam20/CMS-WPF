@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Windows.Input;
 
-namespace FinancialWPFApp.UI
+namespace WPFApp.UI
 {
     public class ReplayCommand : ICommand
     {

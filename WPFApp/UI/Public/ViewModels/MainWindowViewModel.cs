@@ -1,8 +1,8 @@
-﻿using FinancialWPFApp.UI.Public.Views.Pages;
+﻿using WPFApp.UI.Public.Views.Pages;
 using Services.Authen;
 using System.ComponentModel;
 
-namespace FinancialWPFApp.UI.Public.ViewModels
+namespace WPFApp.UI.Public.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {

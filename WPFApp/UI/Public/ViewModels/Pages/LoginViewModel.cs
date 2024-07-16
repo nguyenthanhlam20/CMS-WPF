@@ -1,7 +1,7 @@
-﻿using FinancialWPFApp.UI.Public.Commands.Pages;
+﻿using WPFApp.UI.Public.Commands.Pages;
 using System.ComponentModel;
 
-namespace FinancialWPFApp.UI.Public.ViewModels.Pages
+namespace WPFApp.UI.Public.ViewModels.Pages
 {
     public class LoginViewModel : INotifyPropertyChanged
     {

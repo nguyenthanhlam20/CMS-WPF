@@ -1,10 +1,10 @@
-﻿using FinancialWPFApp.Constants;
+﻿using WPFApp.Constants;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 
-namespace FinancialWPFApp.Models
+namespace WPFApp.Models
 {
     public partial class Transaction
     {

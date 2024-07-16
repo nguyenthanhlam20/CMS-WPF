@@ -1,9 +1,11 @@
-﻿namespace Services
+﻿using DataAccess.Models;
+
+namespace Services
 {
     public interface IDepartmentService
     {
-        Task<object> GetAll();
-        Task AddNew(object item);
-        Task Update(object item);
+        Task<List<Department>> GetAll();
+        Task AddNew(Department item);
+        Task Update(Department item);
     }
 }

@@ -1,4 +1,6 @@
-﻿using Repositories;
+﻿
+using DataAccess.Models;
+using Repositories;
 
 namespace Services
 {
@@ -6,15 +8,12 @@ namespace Services
     {
         private readonly ICourseRepository _repository;
 
-        public CourseService()
-        {
-            _repository = new CourseRepository();
-        }
+        public CourseService() => _repository = new CourseRepository();
 
-        public Task AddNew(object item) => _repository.AddNew(item);
+        public async Task AddNew(Course item) => await _repository.AddNew(item);
 
-        public Task<object> GetAll() => _repository.GetAll();
+        public async Task<List<Course>> GetAll() => await _repository.GetAll();
 
-        public Task Update(object item) => _repository.Update(item);
+        public async Task Update(Course item) => await _repository.Update(item);
     }
 }

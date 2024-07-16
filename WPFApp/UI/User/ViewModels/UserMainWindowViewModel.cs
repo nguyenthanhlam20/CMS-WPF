@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Input;
-using FinancialWPFApp.UI.Public.Views.Pages;
-using FinancialWPFApp.UI.User.Commands;
-using FinancialWPFApp.UI.User.Views.Pages;
+using WPFApp.UI.Public.Views.Pages;
+using WPFApp.UI.User.Commands;
+using WPFApp.UI.User.Views.Pages;
 
-namespace FinancialWPFApp.UI.User.ViewModels
+namespace WPFApp.UI.User.ViewModels
 {
     public class UserMainWindowViewModel : INotifyPropertyChanged
     {

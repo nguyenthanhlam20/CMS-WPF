@@ -1,12 +1,12 @@
-﻿using FinancialWPFApp.UI.Public.ViewModels;
+﻿using WPFApp.UI.Public.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FinancialWPFApp.Constants;
+using WPFApp.Constants;
 
-namespace FinancialWPFApp.UI.Public.Commands
+namespace WPFApp.UI.Public.Commands
 {
    public class MainWindowCommand
     {
