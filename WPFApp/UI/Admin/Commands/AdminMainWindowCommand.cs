@@ -39,8 +39,8 @@ namespace WPFApp.UI.Admin.Commands
             if (page == "Dashboard")
                 frame.Navigate(new DashboardPage());
 
-            if (page == "Users")
-                frame.Navigate(new UserListPage());
+            if (page == "Students")
+                frame.Navigate(new StudentPage());
 
             if (page == "Courses")
                 frame.Navigate(new CoursePage());

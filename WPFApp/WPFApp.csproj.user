@@ -15,9 +15,6 @@
     <Compile Update="UI\Admin\Views\Pages\DashboardPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\Admin\Views\Pages\UserListPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UI\Admin\Views\AdminMainWindowView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -71,6 +68,12 @@
     <Page Update="Themes\LightTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UI\Admin\Views\Pages\StudentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Admin\Views\Windows\StudentDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UI\Staff\Views\StaffMainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -84,9 +87,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Staff\Views\Pages\MarkPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UI\Staff\Views\Pages\UserListPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Staff\Views\Windows\AssessmentDetails.xaml">
@@ -117,9 +117,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Admin\Views\Pages\CoursePage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UI\Admin\Views\Pages\UserListPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Admin\Views\AdminMainWindowView.xaml">

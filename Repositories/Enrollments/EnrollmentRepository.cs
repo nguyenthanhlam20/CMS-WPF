@@ -37,16 +37,23 @@ namespace Repositories
 
         public async Task Update(Enrollment item)
         {
-            using var _context = new CourseManagementDBContext();
-            var exist = await _context.Enrollments.FirstOrDefaultAsync(x => x.EnrollmentId == item.EnrollmentId);
-            if (exist != null)
+            try
             {
-                exist.CourseId = item.CourseId;
-                exist.StudentId = item.StudentId;
-                exist.SemesterId = item.SemesterId;
-               
-                _context.Enrollments.Update(exist);
-                await _context.SaveChangesAsync();
+                using var _context = new CourseManagementDBContext();
+                var exist = await _context.Enrollments.FirstOrDefaultAsync(x => x.EnrollmentId == item.EnrollmentId);
+                if (exist != null)
+                {
+                    exist.CourseId = item.CourseId;
+                    exist.StudentId = item.StudentId;
+                    exist.SemesterId = item.SemesterId;
+
+                    _context.Enrollments.Update(exist);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
     }

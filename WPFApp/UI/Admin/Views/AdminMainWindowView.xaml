@@ -60,7 +60,7 @@
                                      Style="{DynamicResource MenuRadioButtonStyle}" 
                                      Tag="{DynamicResource users}" 
                                      Command="{Binding Path=OpenPage}"
-                                     CommandParameter="Users"
+                                     CommandParameter="Students"
                                      Margin="0 1 0 0" ></RadioButton>
                         <RadioButton x:Name="rdCourse"
                                Content="Courses"

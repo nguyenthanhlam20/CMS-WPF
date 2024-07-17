@@ -39,9 +39,6 @@ namespace WPFApp.UI.Staff.Commands
             if (page == "Dashboard")
                 frame.Navigate(new DashboardPage());
 
-            if (page == "Users")
-                frame.Navigate(new UserListPage());
-
             if (page == "Assessments")
                 frame.Navigate(new AssessmentPage());
 

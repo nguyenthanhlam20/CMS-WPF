@@ -8,12 +8,20 @@ namespace Services
     {
         public async Task AddNew(Department item)
         {
-            using (var _context = new CourseManagementDBContext())
+            try
             {
-                _context.Departments.Add(item);
-                await _context.SaveChangesAsync();
-            }
+                using (var _context = new CourseManagementDBContext())
+                {
+                    _context.Departments.Add(item);
+                    await _context.SaveChangesAsync();
+                }
 
+            }
+            catch (Exception)
+            {
+
+              
+            }
         }
 
         public async Task<List<Department>> GetAll()

@@ -78,9 +78,6 @@
     <Compile Update="UI\Staff\Views\Pages\MarkPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UI\Staff\Views\Pages\UserListPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="UI\Admin\Views\Pages\DepartmentPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

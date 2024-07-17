@@ -55,14 +55,7 @@
                                      Command="{Binding Path=OpenPage}"
                                      CommandParameter="Dashboard"
                                      Margin="0 30 0 0" ></RadioButton>
-                        <RadioButton x:Name="rdTransactions"
-                                     Content="Students"                                      Click="rd_Click"
-
-                                     Style="{DynamicResource MenuRadioButtonStyle}" 
-                                     Tag="{DynamicResource users}" 
-                                     Command="{Binding Path=OpenPage}"
-                                     CommandParameter="Users"
-                                     Margin="0 1 0 0" ></RadioButton>
+                       
                       
                         <RadioButton x:Name="rdEnrollment"
                            Content="Enrollments"                                      Click="rd_Click"

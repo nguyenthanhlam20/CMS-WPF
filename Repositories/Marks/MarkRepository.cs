@@ -48,15 +48,22 @@ namespace Repositories
 
         public async Task Update(Mark item)
         {
-            using var _context = new CourseManagementDBContext();
-            var exist = await _context.Marks
-                .FirstOrDefaultAsync(x => x.EnrollmentId == item.EnrollmentId
-                && x.AssessmentId == item.AssessmentId);
-            if (exist != null)
+            try
             {
-                exist.Mark1 = item.Mark1;
-                _context.Marks.Update(exist);
-                await _context.SaveChangesAsync();
+                using var _context = new CourseManagementDBContext();
+                var exist = await _context.Marks
+                    .FirstOrDefaultAsync(x => x.EnrollmentId == item.EnrollmentId
+                    && x.AssessmentId == item.AssessmentId);
+                if (exist != null)
+                {
+                    exist.Mark1 = item.Mark1;
+                    _context.Marks.Update(exist);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception)
+            {
+
             }
         }
     }

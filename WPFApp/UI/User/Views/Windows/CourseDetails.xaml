@@ -9,7 +9,7 @@
                 ResizeMode="NoResize"
 Topmost="True"
         WindowStartupLocation="CenterScreen"
-        Title="Details" Height="500" Width="510" >
+        Title="Details" Height="550" Width="510" >
     <Border Padding="20 20 25 20" Background="{DynamicResource SecondaryBackgroundColor}">
         <StackPanel Orientation="Vertical" >
             <TextBlock x:Name="txtTitle" Text="{Binding Path=Title}" FontSize="18"
